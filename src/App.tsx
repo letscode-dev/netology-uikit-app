@@ -1,24 +1,19 @@
-import { Button } from "@mantine/core";
-import { AirplaneIcon } from "@phosphor-icons/react";
-import ThemeToggle from "./components/ThemeToggle";
+import UiButton from "./ui-kit/UiButton/UiButton";
 
 const App = () => {
+  const handleClick = () => {
+    console.log("Клик из App");
+  };
+
+  const handleClick2 = () => {
+    console.log("Клик из App2");
+  };
+
   return (
-    <div className="app">
-      <ThemeToggle />
-
-      <hr />
-
-      <AirplaneIcon size={40} color="currentColor" weight="duotone" />
-
-      <Button
-        leftSection={
-          <AirplaneIcon color="currentColor" weight="duotone" size={14} />
-        }
-        variant="default"
-      >
-        Кнопка с иконкой
-      </Button>
+    <div>
+      <h1>Hello</h1>
+      <UiButton onClick={handleClick}>Кнопка из App</UiButton>
+      <UiButton onClick={handleClick2}>Кнопка из App2</UiButton>
     </div>
   );
 };
