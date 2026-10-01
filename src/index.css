@@ -1,0 +1,12 @@
+/* Приложение использует те же токены, что и компоненты ui-kit */
+.app {
+  padding: 20px;
+  background: var(--ui-color-bg);
+  color: var(--ui-color-text);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
