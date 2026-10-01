@@ -1,0 +1,27 @@
+.wrapper {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: none;
+  background: #242424;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.wrapper:hover {
+  opacity: 0.7;
+}
+.wrapper:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  color: #dcdada;
+}
+
+.theme-contained {
+  background-color: blue;
+}
+.theme-outlined {
+  border: 1px solid blue;
+}
+.theme-text {
+  color: blue;
+}
