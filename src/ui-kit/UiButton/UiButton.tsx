@@ -8,22 +8,8 @@ interface IProps {
   theme?: "contained" | "outlined" | "text";
 }
 
-// const a = {
-//   name: "Anton",
-//   age: 23,
-//   "theme-contained": "theme",
-//   themeContained: "theme",
-// };
-
-// const a1 = a.name;
-// const a2 = a["theme-contained"];
-
 const UiButton = (props: IProps) => {
-  const { onClick, children, disabled = false, theme } = props;
-
-  // theme-contained
-  // theme-outlined
-  // theme-text
+  const { onClick, children, disabled = false, theme = "contained" } = props;
 
   return (
     <button
