@@ -1,0 +1,32 @@
+import { Meta, Title, Subtitle, Primary, Controls, Stories, Canvas } from '@storybook/addon-docs/blocks';
+
+import * as UiButtonStories from './UiButton.stories'
+ 
+<Meta of={UiButtonStories} />
+
+<Title />
+
+<Subtitle>Краткое описание компонента</Subtitle>
+
+<Primary />
+
+<Canvas of={UiButtonStories.Outlined} />
+
+<Stories />
+
+> Разметка в формате Markdown
+
+## Описание компонента
+- Это компонент-конопка
+- Он умеет принимать пропсы
+
+## Как вызывать компонент
+```tsx
+import UiButton from "./ui-kit/UiButton";
+
+const App = () => {
+  return (
+    <UiButton onClick={() => setOpen(true)}>Открыть модалку</UiButton>
+  )
+}
+```
