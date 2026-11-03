@@ -29,3 +29,9 @@
 .theme-text {
   color: var(--color-link);
 }
+
+[data-ui-theme="dark"] .wrapper {
+  --color-primary: #fff;
+  --color-on-primary: #000;
+  --color-link: #b6b6f6;
+}

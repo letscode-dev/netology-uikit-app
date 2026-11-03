@@ -1,0 +1,9 @@
+:root {
+  --ui-color-bg: #bdb9c8;
+  --ui-color-text: #4a0b8a;
+}
+
+[data-ui-theme="dark"] {
+  --ui-color-bg: #4a0b8a;
+  --ui-color-text: #bdb9c8;
+}

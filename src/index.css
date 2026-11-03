@@ -1,0 +1,11 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  padding: 10px;
+  background-color: var(--ui-color-bg);
+  color: var(--ui-color-text);
+}
