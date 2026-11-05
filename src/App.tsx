@@ -1,17 +1,18 @@
 // import StatusModal from "./components/StatusModal";
 import ThemeToggle from "./components/ThemeToggle";
+import ButtonIcon from "./components/ButtonIcon";
+import Feedback from "./components/Feedback";
+import { UiBadge } from "./ui-kit";
 
 const App = () => {
   return (
     <div className="app">
       {/* <StatusModal /> */}
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
-        similique, aliquid laudantium ea ut optio. Magnam, quo officia quam cum,
-        accusamus fugit, molestias mollitia consequuntur quis illo voluptatem
-        asperiores accusantium.
-      </p>
       <ThemeToggle />
+      <ButtonIcon />
+      <UiBadge color="pink">Контент</UiBadge>
+
+      <Feedback />
     </div>
   );
 };
