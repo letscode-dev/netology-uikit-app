@@ -3,3 +3,7 @@
 /storybook-static
 
 *storybook.log
+
+/cypress/downloads
+/cypress/videos
+/cypress/screenshots
